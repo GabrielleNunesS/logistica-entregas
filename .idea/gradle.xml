@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../ConfigServer" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../ConfigServer" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../Pedido" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../Pedido" />
+            <option value="$PROJECT_DIR$/../Pedido/application" />
+            <option value="$PROJECT_DIR$/../Pedido/core" />
+            <option value="$PROJECT_DIR$/../Pedido/infrastructure" />
+            <option value="$PROJECT_DIR$/../Pedido/usecase" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../ServiceDiscovery" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../ServiceDiscovery" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/../produto" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../produto" />
+            <option value="$PROJECT_DIR$/../produto/application" />
+            <option value="$PROJECT_DIR$/../produto/core" />
+            <option value="$PROJECT_DIR$/../produto/infrastructure" />
+            <option value="$PROJECT_DIR$/../produto/usecase" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>

@@ -1,10 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../ConfigServer" />
+    <file type="web" url="file://$PROJECT_DIR$/../Pedido" />
+    <file type="web" url="file://$PROJECT_DIR$/../produto" />
+    <file type="web" url="file://$PROJECT_DIR$/../ServiceDiscovery" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../gerenciamento-clientes/pom.xml" />
       </list>
     </option>
   </component>

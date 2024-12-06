@@ -12,10 +12,70 @@
         </processorPath>
         <module name="mslogistica" />
       </profile>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="msclientes" />
+      </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ConfigServer" target="17" />
+      <module name="configServer.main" target="17" />
+      <module name="configServer.test" target="17" />
+      <module name="discovery" target="17" />
+      <module name="discovery.main" target="17" />
+      <module name="discovery.test" target="17" />
+      <module name="Pedido" target="17" />
+      <module name="Pedido.application" target="17" />
+      <module name="Pedido.application.main" target="17" />
+      <module name="Pedido.application.test" target="17" />
+      <module name="Pedido.core" target="17" />
+      <module name="Pedido.core.main" target="17" />
+      <module name="Pedido.core.test" target="17" />
+      <module name="Pedido.infrastructure" target="17" />
+      <module name="Pedido.infrastructure.main" target="17" />
+      <module name="Pedido.infrastructure.test" target="17" />
+      <module name="Pedido.main" target="17" />
+      <module name="Pedido.test" target="17" />
+      <module name="Pedido.usecase" target="17" />
+      <module name="Pedido.usecase.main" target="17" />
+      <module name="Pedido.usecase.test" target="17" />
+      <module name="produto" target="17" />
+      <module name="Produto.application" target="17" />
+      <module name="Produto.application.main" target="17" />
+      <module name="Produto.application.test" target="17" />
+      <module name="Produto.core" target="17" />
+      <module name="Produto.core.main" target="17" />
+      <module name="Produto.core.test" target="17" />
+      <module name="Produto.infrastructure" target="17" />
+      <module name="Produto.infrastructure.main" target="17" />
+      <module name="Produto.infrastructure.test" target="17" />
+      <module name="Produto.main" target="17" />
+      <module name="Produto.test" target="17" />
+      <module name="Produto.usecase" target="17" />
+      <module name="Produto.usecase.main" target="17" />
+      <module name="Produto.usecase.test" target="17" />
+      <module name="Produto2" target="17" />
+      <module name="Produto2.application" target="17" />
+      <module name="Produto2.application.main" target="17" />
+      <module name="Produto2.application.test" target="17" />
+      <module name="Produto2.core" target="17" />
+      <module name="Produto2.core.main" target="17" />
+      <module name="Produto2.core.test" target="17" />
+      <module name="Produto2.infrastructure" target="17" />
+      <module name="Produto2.infrastructure.main" target="17" />
+      <module name="Produto2.infrastructure.test" target="17" />
+      <module name="Produto2.main" target="17" />
+      <module name="Produto2.test" target="17" />
+      <module name="Produto2.usecase" target="17" />
+      <module name="Produto2.usecase.main" target="17" />
+      <module name="Produto2.usecase.test" target="17" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="msclientes" options="-parameters" />
       <module name="mslogistica" options="-parameters" />
     </option>
   </component>
